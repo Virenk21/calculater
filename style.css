@@ -1,0 +1,77 @@
+#secdiv{
+   width: 300px;
+   border: 2px solid black;
+   border-radius: 10%;
+   display: flex;
+   margin-top: 30px;
+   background-color: rgb(56, 51, 51);
+   border-bottom: 3px solid rgb(112, 104, 104);
+   border-left: 2px solid white;
+   border-right: 1px solid rgb(0, 247, 255);
+   margin-left: auto;
+   margin-right: auto;
+}
+
+body{
+    background-color: rgb(0, 0, 0);    
+}
+#firstdiv {
+    position: static;
+    height:50px ;
+    width: 300px;
+    border-left: 2px solid rgb(53, 50, 50);
+    border-bottom: 2px solid rgb(150, 143, 143);
+    border-top: 2px solid white;
+    border-right: 1px solid brown;
+    border-radius: 10%;
+    background-color: black;
+    color:red;
+    margin: auto;
+
+
+}
+.thdiv{
+    width: 20%;
+    margin: auto;
+    
+}
+h1{
+    font-family: Orbitron,'Courier New', Courier, monospace;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    width: 80%;
+    border-left: 2px solid rgb(196, 185, 185);
+    margin-left: 10%;
+    border-radius: 10%;
+    color: rgb(4, 141, 72);
+    background-color: black;
+    font-family: Orbitron,'Courier New', Courier, monospace;
+    border-bottom: 1px solid rgb(48, 156, 160);
+}
+h2:hover{
+    color:  rgb(0, 255, 128);
+    border-bottom: 1px solid  rgb(0, 255, 128) ;
+    border-left: 2px solid white;
+}
+#equal{
+    border: 2px solid black;
+}
+.CAL{
+    border-color: transparent;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.CAL:hover{
+    border-color: transparent;
+    color: white;
+}
+#display{
+    
+    padding: 5px;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 4%;
+    text-align: center;
+}
